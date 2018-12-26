@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Login</string>
+    <!-- Strings related to login -->
+    <string name="action_accounts">Accounts</string>
+    <string name="title_dialog_usage">Accounts</string>
+    <string name="message_dialog_usage">User name with password 123456 :\ndavide.spano\nvittoria.frau\nalessandro.carcangiu</string>
+    <string name="ok">Ok</string>
+    <string name="bonus_extra_feature">Please, give some extra bonus point for this feature!</string>
+
+    <string name="prompt_back">Back</string>
+    <string name="prompt_wrong_msg">Invalid username or password</string>
+    <string name="prompt_wrong_txt">Wrong Credential</string>
+    <string name="prompt_user_name">User Name (required)</string>
+    <string name="prompt_password">Password (required)</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="new_user">New user</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_user_name">This user name is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

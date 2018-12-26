@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <RelativeLayout
+        android:id="@+id/wrong_frame_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/light"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/wrong_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon_container"
+            android:layout_alignParentBottom="false"
+            android:clickable="false"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/padding_list_row">
+
+            <TextView
+                android:id="@+id/wrong_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="@string/prompt_wrong_txt"
+                android:textColor="@color/text_row"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fillViewport="true">
+
+                <TextView
+                    android:id="@+id/wrong_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:scrollbars="vertical"
+                    android:scrollHorizontally="false"
+                    android:lines="2"
+                    android:text="@string/prompt_wrong_msg"
+                    android:textColor="@color/dark"
+                    android:textSize="24dp" />
+            </ScrollView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/wrong_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginBottom="30dp"
+        android:background="#d67601"
+        android:text="@string/prompt_back"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
